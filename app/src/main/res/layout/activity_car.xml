@@ -37,8 +37,8 @@
         android:layout_marginLeft="5dp"
         android:textSize="30dp"
         android:text = "Eficiencia media: 60 %"
-        android:textColor="@color/blanco"
-        android:background="@color/negro"
+        android:textColor="@color/negro"
+        android:background="@color/verdeClaro"
         />
     <Button
         android:layout_width="match_parent"
@@ -46,9 +46,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="5dp"
         android:textSize="30dp"
-        android:text = "Sólo llegas al aprobado. Podrías mejorar"
-        android:textColor="@color/blanco"
-        android:background="@color/negro"
+        android:text = "Deberías subir de marcha"
+        android:textColor="@color/negro"
+        android:background="@color/verdeClaro"
         />
     <Button
         android:layout_width="120dp"
@@ -59,6 +59,7 @@
         android:text = "DETENER"
         android:textColor="@color/morado"
         android:background="@color/m2"
+        android:onClick="finalizar"
         />
 
 

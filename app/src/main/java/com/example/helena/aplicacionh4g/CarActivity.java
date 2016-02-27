@@ -1,9 +1,11 @@
 package com.example.helena.aplicacionh4g;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import java.util.Timer;
@@ -28,57 +30,8 @@ public class CarActivity extends ActionBarActivity {
 
     }
 
-    /*
-    public void onResume() {
-        super.onResume();
-
-        Runnable runnable = new Runnable() {
-            @Override
-            public void run() {
-                TextView vista = new TextView(getApplicationContext());
-                for (int i = 0; i < 100; i++) {
-                    final int value;
-                    working();
-
-                    vista.setText(String.valueOf(i));
-
-                }
-            }
-        };
-        new Thread(runnable).start();
-
-        /*
-        //CharSequence cadena;
-        for (eValor = 0; eValor < 100; eValor++) {
-            try {
-                new Timer().schedule(new TimerTask() {
-                    @Override
-                    public void run() {
-                        eficiencia.setText(String.valueOf(eValor));
-                    }
-                }, 2000);
-
-                // Thread.sleep(100);
-            } catch (Exception e) {
-                Log.e(ERROR_CAR_ACTIVITY, e.toString());
-
-            }
-
-        }
-
+    public void finalizar(View view){
+        Intent i = new Intent(this,MainActivity.class);
+        startActivity(i);
     }
-
-
-
-    }
-
-
-    private void working() {
-        try{
-            Thread.sleep(2000);
-        }catch(InterruptedException e){
-            e.printStackTrace();
-        }
-    }
-     */
 }
