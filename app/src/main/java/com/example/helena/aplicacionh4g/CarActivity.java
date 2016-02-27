@@ -28,7 +28,7 @@ public class CarActivity extends ActionBarActivity {
 
     }
 
-
+    /*
     public void onResume() {
         super.onResume();
 
@@ -67,10 +67,11 @@ public class CarActivity extends ActionBarActivity {
         }
 
     }
-    */
+
 
 
     }
+
 
     private void working() {
         try{
@@ -79,4 +80,5 @@ public class CarActivity extends ActionBarActivity {
             e.printStackTrace();
         }
     }
+     */
 }
