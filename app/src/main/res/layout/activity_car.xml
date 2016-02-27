@@ -7,16 +7,60 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.example.helena.aplicacionh4g.CarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="40dp"
+        android:text = "EFICIENCIA"
+        />
 
     <TextView
         android:id="@+id/eficienciaView"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
         android:textSize="120dp"
         android:text = "50 %"
- />
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="30dp"
+        android:text = "Eficiencia media: 60 %"
+        android:textColor="@color/blanco"
+        android:background="@color/negro"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="30dp"
+        android:text = "Sólo llegas al aprobado. Podrías mejorar"
+        android:textColor="@color/blanco"
+        android:background="@color/negro"
+        />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="20dp"
+        android:text = "DETENER"
+        android:textColor="@color/morado"
+        android:background="@color/m2"
+        />
+
+
 
 </LinearLayout>
