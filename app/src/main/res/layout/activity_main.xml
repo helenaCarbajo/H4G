@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,10 +7,41 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.helena.aplicacionh4g.MainActivity">
+    tools:context="com.example.helena.aplicacionh4g.MainActivity"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/logo"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:layout_width="match_parent"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/botonInicial"
+        android:layout_width="match_parent"
+        android:layout_height= "60dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="30sp"
+        android:text="COMENZAR"
+        android:onClick="comenzarTest"
+        android:textColor="@color/morado"
+        android:background="@color/m2"/>
+
+    <Button
+        android:id="@+id/estadisticas"
+        android:layout_width="match_parent"
+        android:layout_height= "60dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="30sp"
+        android:text="ESTADÍSTICAS"
+        android:onClick="comenzarTest"
+        android:textColor="@color/morado"
+        android:background="@color/m2"/>
+
+
+</LinearLayout>
